@@ -1,6 +1,6 @@
 .card {
 /* Add shadows for effect */
-    box-shadow: 0 4px 8px 0 white;
+    box-shadow: 0 4px 8px 0 skyblue;
     transition: 0.3s;
     width: 40%;
     float: right;
@@ -11,10 +11,10 @@
 }
 /* Glow on hover */
 .card:hover {
-    box-shadow: 0 8px 16px 0 pink;
+    box-shadow: 0 8px 16px 0 white;
 }
       
-/* Add some padding inside the card container */
+/* card padding */
 #cont-Card{
     padding: 2px 16px;
 }

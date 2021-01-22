@@ -3,13 +3,13 @@
 
 * {box-sizing: border-box}
 
-/* Add padding to containers */
+/* container padding */
 .sub-form {
   padding: 16px;
 }
 
-/* Full-width input fields */
-input[type=text], input[type=password] {
+/* input field customization */
+input[type=text], input[type=email] {
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -18,18 +18,18 @@ input[type=text], input[type=password] {
   background: #f1f1f1;
 }
 
-input[type=text]:focus, input[type=password]:focus {
+input[type=text]:focus, input[type=email]:focus {
   background-color: #ddd;
   outline: none;
 }
 
-/* Overwrite default styles of hr */
+/* seperation lines */
 hr {
   border: 1px solid #f1f1f1;
   margin-bottom: 25px;
 }
 
-/* Set a style for the submit/register button */
+/* btn style */
 .subscribe-btn {
   background-color: palevioletred;
   float: left;
