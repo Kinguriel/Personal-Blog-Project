@@ -1,21 +1,21 @@
 .card {
-    /* Add shadows to create the "card" effect */
-        box-shadow: 0 4px 8px 0 white;
-        transition: 0.3s;
-        width: 40%;
-        float: right;
-        border-radius: 5px;
-    }
-    .card img{
+/* Add shadows for effect */
+    box-shadow: 0 4px 8px 0 white;
+    transition: 0.3s;
+    width: 40%;
+    float: right;
+    border-radius: 5px;
+}
+.card img{
         border-radius: 5px 5px 0 0;
-    }
-    /* On mouse-over, add a deeper shadow */
-    .card:hover {
-        box-shadow: 0 8px 16px 0 pink;
-    }
+}
+/* Glow on hover */
+.card:hover {
+    box-shadow: 0 8px 16px 0 pink;
+}
       
-    /* Add some padding inside the card container */
-    #contCard{
-        padding: 2px 16px;
-    }
+/* Add some padding inside the card container */
+#cont-Card{
+    padding: 2px 16px;
+}
     

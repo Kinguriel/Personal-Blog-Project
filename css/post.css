@@ -1,8 +1,8 @@
-@import "style.css";
+@import "index.css";
 @import "card.css";
 @import "button.css";
 
-#overCon{
+#over-Con{
         width: 100vw;
         height: 100vh;
         font-family: "Sofia", sans-serif;
@@ -16,7 +16,7 @@
         box-sizing: border-box;
         background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7a51839c-067c-4c4e-9807-2d0df5746f1b/d8ayeyz-1b209ce4-ca2d-4b7a-88e1-dfdf272291b5.jpg/v1/fill/w_1024,h_640,q_75,strp/anime_collage_wallpaper_by_dinocojv-d8ayeyz.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi83YTUxODM5Yy0wNjdjLTRjNGUtOTgwNy0yZDBkZjU3NDZmMWIvZDhheWV5ei0xYjIwOWNlNC1jYTJkLTRiN2EtODhlMS1kZmRmMjcyMjkxYjUuanBnIiwid2lkdGgiOiI8PTEwMjQiLCJoZWlnaHQiOiI8PTY0MCJ9XV19.70LHyv_1jkIR-3QmB3nJb3nnUOt8en-n-6CPWELKVpo");
 }
-#overHd{
+#over-Hd{
     grid-column-start: 1;
     grid-column-end: 4;
     text-shadow: 4px 4px palevioletred;
@@ -27,7 +27,7 @@
     color: paleturquoise;
     background-image: url("https://i.pinimg.com/736x/1c/03/ac/1c03accb9f860487c53b4e49180fe26c--twitter-headers-anime.jpg");
 }
-#overMain{
+#over-Main{
     font-family: "Trirong", serif;
     grid-column-start: 1;
     grid-column-end: 4;
@@ -40,11 +40,11 @@
     color:whitesmoke;
     background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.fg-a.com%2Fwallpapers%2Fblack-geometric-design.jpg&f=1&nofb=1");
 }
-#overMain img{
+#over-Main img{
     width: auto;
     height: 550px;
 }
-#textBox{
+#text-Box{
     display: flex;
     align-items: center;
     width: auto;

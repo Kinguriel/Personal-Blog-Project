@@ -48,12 +48,12 @@ img{
     font-size: 15px;
     text-align: center;
 }
-#textCont{
+#text-Cont{
     display: flex;
     align-items: center;
     width: auto;
 }
-#textEnclo{
+#text-Enclo{
     display: flex;
     align-items: center;
     width: auto;
