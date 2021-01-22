@@ -1,0 +1,22 @@
+.ft{
+    font-family: "Audiowide", sans-serif;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    text-align: center;
+    border-radius: 15px;
+    text-shadow: 1px 1px paleturquoise;
+    background-color:palevioletred;   
+}
+.ft a{
+    text-decoration: none;
+    text-shadow: 1px 1px paleturquoise;
+    color: whitesmoke;
+    border-radius: 15px;
+}
+.ft a:hover{
+    text-shadow: 1px 1px paleturquoise;
+    background-color: grey;
+    color: black;
+}
