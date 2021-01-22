@@ -17,6 +17,10 @@ body {
     color: palevioletred;
     background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F5b%2Ff3%2Faa%2F5bf3aac964f181a42016230ab1b9d8f1.png&f=1&nofb=1");
 }
+img{
+    width: 100%;
+    height: auto;
+}
 .sd{
     grid-column-start: 1;
     grid-column-end: 2;
@@ -27,6 +31,10 @@ body {
     line-height: 0.8;
     font-size: 12px;
     text-align: center;
+}
+.sd img{
+    width: auto;
+    height: 260px;
 }
 .main{
     font-family: "Trirong", serif;
@@ -40,16 +48,104 @@ body {
     text-align: center;
 }
 /* x-small devices */
-@media (max-width: 575.98px) { ... }
+@media (max-width: 575.98px) {
+    .container{
+        font-weight: lighter;
+        font-size: .8em;
+        grid-template-rows: 100px 35px 1fr 1fr 35px;
+        border: 1px solid red;
+    }
+    .hd{
+        font-size: 1em;
+    }
+    .nav{
+        font-size: 1em;
+    }
+    .ft{
+        font-size: 1em;
+    }
+}
 
 /* small devices */
-@media (min-width: 576px) and (max-width: 767.98px) { ... }
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .container{
+        font-size: 1em;
+        grid-template-rows: 150px 50px 1fr 1fr 50px;
+        border: 1px solid green;
+    }
+    .hd{
+        font-size: 1.2em;
+    }
+    .nav{
+        font-size: 1.2em;
+    }
+    .ft{
+        font-size: 1.2em;
+    }
+    .sd img{
+        width: 187px;
+        height: 236px;
+    }
+}
 
 /* medium devices */
-@media (min-width: 768px) and (max-width: 991.98px) { ... }
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .container{
+        font-size: 1em;
+        grid-template-rows: 150px 50px 1fr 1fr 50px;
+        border: 1px solid blue;
+    }
+    .hd{
+        font-size: 1.3em;
+    }
+    .nav{
+        font-size: 1.2em;
+    }
+    .ft{
+        font-size: 1.2em;
+    }
+    .sd img{
+        width: auto;
+        height: 260px;
+    }
+    .main img{
+        width: auto;
+        height: 250px;
+    }
+}
 
 /* large devices */
-@media (min-width: 992px) and (max-width: 1199.98px) { ... }
-
-/* x-large devices */
-@media (min-width: 1200px) { ... }
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .container{
+        font-size: 1em;
+        grid-template-rows: 150px 50px 1fr 1fr 50px;
+        border: 1px solid orange;
+    }
+    .hd{
+        font-size: 1.3em;
+    }
+    .nav{
+        font-size: 1.2em;
+    }
+    .ft{
+        font-size: 1.2em;
+    }
+    .sd img{
+        width: auto;
+        height: 270px;
+    }
+    .main img{
+        width: auto;
+        height: 310px;
+    }
+}
+/* x-large devices*/
+@media (min-width: 1200px) {
+    .container{
+        border: 1px solid red;
+    }
+    .main img{
+        width: auto;
+        height: 310px;
+    }
+}
