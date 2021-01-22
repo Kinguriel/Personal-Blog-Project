@@ -2,6 +2,7 @@
 @import "nav.css";
 @import "ft.css";
 
+
 body {
     margin: 0;
     font-family: "Trirong", serif;
@@ -97,7 +98,6 @@ img{
         height: 236px;
     }
 }
-
 /* medium devices */
 @media (min-width: 768px) and (max-width: 991.98px) {
     .container{

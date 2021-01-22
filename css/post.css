@@ -1,4 +1,6 @@
 @import "style.css";
+@import "card.css";
+@import "button.css";
 
 #overCon{
         width: 100vw;
