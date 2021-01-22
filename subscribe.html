@@ -7,7 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1"/>
     <link rel="stylesheet" 
-      href="css/post.css">
+      href="css/subscribe.css">
     <link rel="stylesheet" 
       href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
     <link rel="shortcut icon" 
@@ -35,26 +35,25 @@
           class="fa fa-youtube"></a>
       </div>
       <div id="over-Main" class="main">
-        <div class="card">
-          <img src="http://static.zerochan.net/Dax.full.1230073.jpg" 
-          alt="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.vippng.com%2Fpng%2Fdetail%2F118-1188881_black-anime-characters-with-dreads-png-png-download.png&f=1&nofb=1" 
-          style="width:100%">
-          <div id="cont-Card">
-            <h4><b>Jonshea Nutson</b></h4>
-            <p>Photographer & Artist</p>
-          </div>
-        </div> 
-        <p>Living the Weeb Life!</p>
-        <p>Company: Angel Light Media</p>
-        <p>School: Udacity</p>
-        <p id="text-Box">Jonshea Nutson, known professionally as K.I.N.G 
-           (Khemetic Intelligence Newly Generated), is an American rapper whose
-           hometown is Atlanta, GA. Originally born in Dallas, TX and raised 
-           in ATL, he first attracted attention with a career in photography, 
-           videography and editing on social media while in college; coupled 
-           with dreams of building his media company ALM, he quickly began 
-           building his following through Instagram doing what he loves.</p>
-        <button onclick="window.location.href='https://angellightmedia.com/pricing'"><span>Hire Me</span></button> 
+        <form action="action-page.php">
+            <div class="sub-form">
+              <h1>Join the Community</h1>
+              <p>Fill in This Form to Contine Recieving Content From yuurieru's Blog</p>
+              <hr>
+              <label for="email"><b>Email</b></label>
+              <input type="text" placeholder="Enter Email" name="email" id="email" required>
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+              <label for="psw-repeat"><b>Repeat Password</b></label>
+              <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+              <hr>
+              <p>By subscribing you agree to our <a href="https://www.termsfeed.com/blog/sample-terms-of-service-template/">Terms & Privacy</a>.</p>
+              <button type="submit" class="subscribe-btn">Subscribe</button>
+            </div>
+            <div class="container-signin">
+              <p>Already subbed? <a href="https://login.yahoo.com/?.lang=en-US&src=homepage&.done=https%3A%2F%2Fwww.yahoo.com%2F&pspid=2023538075&activity=ybar-signin">Sign in</a>.</p>
+            </div>
+          </form>
       </div>
       <div id="over-Ft" class="ft">
         <a href="https://www.instagram.com/angellightmedia/" 
