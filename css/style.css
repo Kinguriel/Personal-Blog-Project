@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: "Trirong", serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    font-family: "Sofia", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px 50px 1fr 1fr 50px;
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.container div{
+    padding: 10px;
+    border: 1px solid black;
+}
+.hd{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-shadow: 4px 4px paleturquoise;
+    font-size: 30px;
+    line-height: 0.8;
+    text-align: center;
+    border-radius: 15px;
+    color: palevioletred;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F5b%2Ff3%2Faa%2F5bf3aac964f181a42016230ab1b9d8f1.png&f=1&nofb=1");
+}
+.nav{
+    font-family: "Audiowide", sans-serif;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    text-align: center;
+    border-radius: 15px;
+    text-shadow: 1px 1px paleturquoise;
+    background-color:palevioletred;
+}
+.nav a{
+    text-decoration: none;
+    text-shadow: 1px 1px paleturquoise;
+    color: whitesmoke;
+    border-radius: 15px;
+}
+.nav a:hover{
+    text-shadow: 1px 1px paleturquoise;
+    background-color: grey;
+    color: black;
+}
+.sd{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    border-radius: 15px;
+    font-family: "Trirong", serif;
+    line-height: 0.8;
+    font-size: 12px;
+    text-align: center;
+}
+.main{
+    font-family: "Trirong", serif;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    border-radius: 15px;
+    line-height: 1;
+    font-size: 15px;
+    text-align: center;
+}
+.ft{
+    font-family: "Audiowide", sans-serif;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    text-align: center;
+    border-radius: 15px;
+    text-shadow: 1px 1px paleturquoise;
+    background-color:palevioletred;   
+}
+.ft a{
+    text-decoration: none;
+    text-shadow: 1px 1px paleturquoise;
+    color: whitesmoke;
+    border-radius: 15px;
+}
+.ft a:hover{
+    text-shadow: 1px 1px paleturquoise;
+    background-color: grey;
+    color: black;
+}

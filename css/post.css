@@ -1,0 +1,39 @@
+@import "style.css";
+
+#overCon{
+        width: 100vw;
+        height: 100vh;
+        font-family: "Sofia", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 100px 50px 1fr 50px;
+        gap: 10px;
+        padding: 10px;
+        box-sizing: border-box;
+        background-image: url("http://wallpoper.com/images/00/44/32/51/dark-fabric_00443251.jpg");
+}
+#overHd{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-shadow: 4px 4px palevioletred;
+    font-size: 20px;
+    line-height: 0.8;
+    text-align: center;
+    border-radius: 15px;
+    color: paleturquoise;
+    background-image: url("https://i.pinimg.com/736x/1c/03/ac/1c03accb9f860487c53b4e49180fe26c--twitter-headers-anime.jpg");
+}
+#overMain{
+    font-family: "Trirong", serif;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    border-radius: 15px;
+    line-height: 1;
+    font-size: 25px;
+    text-align: center;
+    color:whitesmoke
+}
