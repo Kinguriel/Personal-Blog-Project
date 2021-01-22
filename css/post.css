@@ -5,20 +5,20 @@
         height: 100vh;
         font-family: "Sofia", sans-serif;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 1em;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 100px 50px 1fr 50px;
         gap: 10px;
         padding: 10px;
         box-sizing: border-box;
-        background-image: url("http://wallpoper.com/images/00/44/32/51/dark-fabric_00443251.jpg");
+        background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7a51839c-067c-4c4e-9807-2d0df5746f1b/d8ayeyz-1b209ce4-ca2d-4b7a-88e1-dfdf272291b5.jpg/v1/fill/w_1024,h_640,q_75,strp/anime_collage_wallpaper_by_dinocojv-d8ayeyz.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi83YTUxODM5Yy0wNjdjLTRjNGUtOTgwNy0yZDBkZjU3NDZmMWIvZDhheWV5ei0xYjIwOWNlNC1jYTJkLTRiN2EtODhlMS1kZmRmMjcyMjkxYjUuanBnIiwid2lkdGgiOiI8PTEwMjQiLCJoZWlnaHQiOiI8PTY0MCJ9XV19.70LHyv_1jkIR-3QmB3nJb3nnUOt8en-n-6CPWELKVpo");
 }
 #overHd{
     grid-column-start: 1;
     grid-column-end: 4;
     text-shadow: 4px 4px palevioletred;
-    font-size: 20px;
+    font-size: 1em;
     line-height: 0.8;
     text-align: center;
     border-radius: 15px;
@@ -33,7 +33,17 @@
     grid-row-end: 5;
     border-radius: 15px;
     line-height: 1;
-    font-size: 25px;
+    font-size: 1.3em;
     text-align: center;
-    color:whitesmoke
+    color:whitesmoke;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.fg-a.com%2Fwallpapers%2Fblack-geometric-design.jpg&f=1&nofb=1");
+}
+#overMain img{
+    width: auto;
+    height: 550px;
+}
+#textBox{
+    display: flex;
+    align-items: center;
+    width: auto;
 }

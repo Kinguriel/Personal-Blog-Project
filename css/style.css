@@ -47,6 +47,16 @@ img{
     font-size: 15px;
     text-align: center;
 }
+#textCont{
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+#textEnclo{
+    display: flex;
+    align-items: center;
+    width: auto;
+}
 /* x-small devices */
 @media (max-width: 575.98px) {
     .container{
